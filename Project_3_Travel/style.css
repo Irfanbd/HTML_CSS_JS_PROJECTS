@@ -39,6 +39,7 @@ ul{
     justify-content: center;
     align-items: center;
     margin-left: 14%;
+    
 }
 ul li{
     list-style:none ;
@@ -53,4 +54,41 @@ ul li a{
 }
 ul li a:hover{
     color:#FFC300;
+}
+.search-box{
+    float: right;
+    width: 240px;
+    background: #FFC300;
+    height: 30px;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-right:2%;
+}
+.search-box .search-txt{
+    width: 190px;
+    padding: 0 6px;
+
+}
+.search-btn{
+text-decoration: none;
+background: #FFC300;
+color: #fff;
+display: flex;
+float: right;
+justify-content: center;
+align-items: center;
+width: 30px;
+height: 30px;
+}
+.search-txt{
+ border: none;
+ background: none;
+ outline: none;   
+ float: left;
+ font-size: 16px;
+ line-height: 30px;
+ letter-spacing: .60px;
+ color: #fff;
+ font-weight: bold;
 }
