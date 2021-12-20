@@ -25,9 +25,14 @@ body{
 }
 .logo{
     color: #fff;
-    font-size: 35px;
+    font-size: 40px;
     float: left;
     cursor: pointer;
+    letter-spacing: 5px;
+    transition: .6s;
+}
+.logo:hover{
+    color:green;
 }
 nav{
     display: flex;
@@ -46,4 +51,42 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 3px;
 }
+nav ul li a:hover{
+    color:greenyellow;
+}
+img{
+    width: 40px;
+    width: 40px;
+    border-radius: 80%;
+    cursor: pointer;
+}
+.info{
+    margin-left: 30px;
+    padding: 18px;
+    color:#fff;
+    font-size: 30px;
+    
+}
+button{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 18px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: #7EC4D1;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: green;
+    
+}
+
