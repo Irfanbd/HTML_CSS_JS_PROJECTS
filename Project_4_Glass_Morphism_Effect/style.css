@@ -1,0 +1,18 @@
+body{
+    background: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 98vh;
+    display: flex; /* fills all abailable space */
+    align-items: center;
+    justify-content: center;
+}
+.glass-effect{
+   
+    width: 900px;
+    height: 700px;
+    background: radial-gradient(rgba(255,255,255,0.8));
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.8);/* 5px for x axis 10px for y axis and 20px for opacity */
+}
