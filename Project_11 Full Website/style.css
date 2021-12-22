@@ -225,3 +225,30 @@ transition: .5s;
     bottom: 49%;
     opacity: 1;
 }
+.services{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.service-col{
+    flex-basis: 21%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.service-col img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.service-col p{
+    padding: 0;
+
+}
+.service-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+
+}
