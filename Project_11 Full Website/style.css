@@ -436,6 +436,10 @@ transition: .5s;
 .blog-left{
     flex-basis: 65%;
 }
+.blog-left p{
+    column-count:2;
+    
+}
 .blog-left img{
     width: 50%;
     
