@@ -1,5 +1,3 @@
-
-
 gsap.from(".bar abbr", {
     scrollTrigger: ".bar",
     left: 0,
