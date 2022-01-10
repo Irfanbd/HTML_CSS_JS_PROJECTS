@@ -1,5 +1,6 @@
 const skillsSection = document.getElementById('skills-section');
 const progressBars = document.querySelectorAll('.progress-bar');
+
 function showProgress() {
     progressBars.forEach(progressBar => {
         const value = progressBar.dataset.progress;
