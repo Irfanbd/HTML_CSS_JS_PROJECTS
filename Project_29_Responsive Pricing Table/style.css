@@ -20,7 +20,7 @@ background: linear-gradient(191deg, rgba(237,18,18,1) 0%, rgba(254,149,10,1) 18%
   margin: auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /**Remove Flex-Wrap to set 3 price tale in one row/
 }
  .content .card{
   background: #fff;
